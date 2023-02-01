@@ -1,10 +1,13 @@
 {
-  "name": "vuetify",
+  "name": "@webcomputing/vuetify",
   "description": "Vue Material Component Framework",
   "version": "2.6.14",
   "author": {
     "name": "John Leider",
     "email": "john@vuetifyjs.com"
+  },
+  "publishConfig": {
+    "registry": "https://npm.web-computing.de"
   },
   "license": "MIT",
   "homepage": "https://vuetifyjs.com",
@@ -45,7 +48,8 @@
     "lib/",
     "es5/",
     "types/",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "WEB_COMPUTING_CHANGES.md"
   ],
   "scripts": {
     "watch": "cross-env TARGET=development webpack --config build/config.js --progress --hide-modules --watch",
@@ -105,9 +109,6 @@
   },
   "peerDependencies": {
     "vue": "^2.6.4"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "vetur": {
     "tags": "dist/json/tags.json",

@@ -8,7 +8,7 @@
    # Global selectors
    # ================================================================= */
 
-html {
+html.vuetify-styles {
   box-sizing: border-box;
   overflow-y: scroll; /* All browsers without overlaying scrollbars */
   -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
@@ -17,6 +17,7 @@ html {
   tab-size: 4;
 }
 
+.vuetify-styles {
 *,
 ::before,
 ::after {
@@ -278,4 +279,5 @@ progress {
 /* Specify the unstyled cursor of disabled, not-editable, or otherwise inoperable elements */
 [aria-disabled="true"] {
   cursor: default;
+}
 }
