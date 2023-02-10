@@ -8,13 +8,13 @@ import { getNestedValue } from '../../util/helpers'
 
 // Types
 import Vue from 'vue'
-import { VuetifyPreset } from 'vuetify/types/services/presets'
+import { VuetifyPreset } from '@webcomputing/vuetify/types/services/presets'
 import {
   VuetifyParsedTheme,
   VuetifyThemes,
   VuetifyThemeVariant,
   Theme as ITheme,
-} from 'vuetify/types/services/theme'
+} from '@webcomputing/vuetify/types/services/theme'
 
 export class Theme extends Service {
   static property: 'theme' = 'theme'

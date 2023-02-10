@@ -1,6 +1,6 @@
 // Types
 import Vue, { VNode, PropType } from 'vue'
-import { DataTableHeader } from 'vuetify/types'
+import { DataTableHeader } from '@webcomputing/vuetify/types'
 
 // Utils
 import { getObjectValueByPath, wrapInArray } from '../../util/helpers'

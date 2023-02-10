@@ -1,9 +1,9 @@
 // Types
 import Framework from '../../../framework'
-import { Breakpoint } from 'vuetify/types/services/breakpoint'
-import { Icons } from 'vuetify/types/services/icons'
-import { Lang } from 'vuetify/types/services/lang'
-import { Theme } from 'vuetify/types/services/theme'
+import { Breakpoint } from '@webcomputing/vuetify/types/services/breakpoint'
+import { Icons } from '@webcomputing/vuetify/types/services/icons'
+import { Lang } from '@webcomputing/vuetify/types/services/lang'
+import { Theme } from '@webcomputing/vuetify/types/services/theme'
 
 describe('$vuetify.presets', () => {
   it('should merge user and default preset', () => {

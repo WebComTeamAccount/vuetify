@@ -9,9 +9,9 @@ import {
 } from './util'
 
 // Types
-import { GoToOptions, VuetifyGoToTarget } from 'vuetify/types/services/goto'
+import { GoToOptions, VuetifyGoToTarget } from '@webcomputing/vuetify/types/services/goto'
 
-import { VuetifyServiceContract } from 'vuetify/types/services'
+import { VuetifyServiceContract } from '@webcomputing/vuetify/types/services'
 
 export default function goTo (
   _target: VuetifyGoToTarget,

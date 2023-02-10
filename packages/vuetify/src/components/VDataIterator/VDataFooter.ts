@@ -7,7 +7,7 @@ import VBtn from '../VBtn'
 
 // Types
 import Vue, { VNode, VNodeChildrenArrayContents, PropType } from 'vue'
-import { DataPagination, DataOptions, DataItemsPerPageOption } from 'vuetify/types'
+import { DataPagination, DataOptions, DataItemsPerPageOption } from '@webcomputing/vuetify/types'
 import { PropValidator } from 'vue/types/options'
 import { getSlot } from '../../util/helpers'
 

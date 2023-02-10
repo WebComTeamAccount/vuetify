@@ -1,4 +1,4 @@
-import { VuetifyIcons } from 'vuetify/types/services/icons'
+import { VuetifyIcons } from '@webcomputing/vuetify/types/services/icons'
 
 const icons: VuetifyIcons = {
   complete: 'check',

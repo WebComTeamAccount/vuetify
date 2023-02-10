@@ -1,6 +1,6 @@
 declare module 'vuetify/lib' {
-  import Vuetify from 'vuetify'
-  import { Colors } from 'vuetify/lib/util/colors'
+  import Vuetify from '@webcomputing/vuetify'
+  import { Colors } from '@webcomputing/vuetify/lib/util/colors'
 
   export default Vuetify
 
@@ -9,8 +9,8 @@ declare module 'vuetify/lib' {
   export {
     colors,
   }
-  export * from 'vuetify/lib/components'
-  export * from 'vuetify/lib/directives'
+  export * from '@webcomputing/vuetify/lib/components'
+  export * from '@webcomputing/vuetify/lib/directives'
 }
 
 declare module 'vuetify/lib/components' {
@@ -372,7 +372,7 @@ declare module 'vuetify/lib/directives' {
 }
 
 declare module 'vuetify/lib/services/goto' {
-  import { GoToOptions, VuetifyGoToTarget } from 'vuetify/types/services/goto'
+  import { GoToOptions, VuetifyGoToTarget } from '@webcomputing/vuetify/types/services/goto'
 
   export default function goTo(target: VuetifyGoToTarget, options?: Partial<GoToOptions>): Promise<number>
 }

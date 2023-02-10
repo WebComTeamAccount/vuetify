@@ -3,19 +3,19 @@ import { Component } from 'vue'
 import {
   Breakpoint,
   BreakpointOptions,
-} from 'vuetify/types/services/breakpoint'
+} from '@webcomputing/vuetify/types/services/breakpoint'
 import {
   Icons,
   IconsOptions,
-} from 'vuetify/types/services/icons'
+} from '@webcomputing/vuetify/types/services/icons'
 import {
   Lang,
   LangOptions,
-} from 'vuetify/types/services/lang'
+} from '@webcomputing/vuetify/types/services/lang'
 import {
   Theme,
   ThemeOptions,
-} from 'vuetify/types/services/theme'
+} from '@webcomputing/vuetify/types/services/theme'
 
 export interface VuetifyPreset {
   breakpoint: {

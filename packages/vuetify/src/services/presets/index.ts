@@ -6,12 +6,12 @@ import { consoleWarn } from '../../util/console'
 import { mergeDeep } from '../../util/helpers'
 
 // Types
-import Vuetify from 'vuetify/types'
+import Vuetify from '@webcomputing/vuetify/types'
 import { Service } from '../service'
 import {
   UserVuetifyPreset,
   VuetifyPreset,
-} from 'vuetify/types/services/presets'
+} from '@webcomputing/vuetify/types/services/presets'
 
 export class Presets extends Service {
   static property: 'presets' = 'presets'

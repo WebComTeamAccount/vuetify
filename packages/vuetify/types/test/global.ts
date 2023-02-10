@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
+import Vuetify from '@webcomputing/vuetify'
 
 Vuetify.config.silent = true
 

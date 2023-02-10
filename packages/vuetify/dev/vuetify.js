@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify'
+import Vuetify from '@webcomputing/vuetify'
 import * as locales from '../src/locale'
 import '@mdi/font/css/materialdesignicons.css'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'

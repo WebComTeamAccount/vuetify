@@ -38,7 +38,7 @@ import {
   CalendarEvent,
   CalendarEventCategoryFunction,
   CalendarCategory,
-} from 'vuetify/types'
+} from '@webcomputing/vuetify/types'
 
 // Types
 type VEventGetter<D> = (day: D) => CalendarEventParsed[]

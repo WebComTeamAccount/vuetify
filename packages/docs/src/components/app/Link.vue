@@ -1,6 +1,6 @@
 <script>
   // Components
-  import { VIcon } from 'vuetify/lib/components/VIcon'
+  import { VIcon } from '@webcomputing/vuetify/lib/components/VIcon'
 
   // Utilities
   import { rpath } from '@/util/routes'

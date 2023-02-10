@@ -9,7 +9,7 @@ import { en } from '../../locale'
 // import mdi from '../../services/icons/presets/mdi'
 
 // Types
-import { VuetifyPreset } from 'vuetify/types/services/presets'
+import { VuetifyPreset } from '@webcomputing/vuetify/types/services/presets'
 
 export const preset: VuetifyPreset = {
   breakpoint: {

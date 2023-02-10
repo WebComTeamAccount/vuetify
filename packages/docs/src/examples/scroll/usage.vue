@@ -94,7 +94,7 @@
 </template>
 
 <script>
-  import * as easings from 'vuetify/lib/services/goto/easing-patterns'
+  import * as easings from '@webcomputing/vuetify/lib/services/goto/easing-patterns'
 
   export default {
     data () {

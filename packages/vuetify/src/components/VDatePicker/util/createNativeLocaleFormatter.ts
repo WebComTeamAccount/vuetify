@@ -1,5 +1,5 @@
 import pad from './pad'
-import { DatePickerFormatter } from 'vuetify/types'
+import { DatePickerFormatter } from '@webcomputing/vuetify/types'
 
 interface SubstrOptions {
   start?: number

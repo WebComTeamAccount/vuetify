@@ -1,6 +1,6 @@
 // Packages
 import Vue from 'vue'
-import Vuetify from 'vuetify/lib/framework'
+import Vuetify from '@webcomputing/vuetify/lib/framework'
 import InstantSearch from 'vue-instantsearch'
 
 // Bootstrap

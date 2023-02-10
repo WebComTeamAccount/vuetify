@@ -6,7 +6,7 @@ import VCalendarWeekly from './VCalendarWeekly'
 
 // Util
 import { parseTimestamp, getStartOfMonth, getEndOfMonth } from './util/timestamp'
-import { CalendarTimestamp } from 'vuetify/types'
+import { CalendarTimestamp } from '@webcomputing/vuetify/types'
 
 /* @vue/component */
 export default VCalendarWeekly.extend({

@@ -99,7 +99,7 @@
 
   // Utilities
   import { get } from 'vuex-pathify'
-  import { searchItems } from 'vuetify/lib/util/helpers'
+  import { searchItems } from '@webcomputing/vuetify/lib/util/helpers'
 
   const HEADERS = {
     options: ['name', 'type', 'default', 'description'],

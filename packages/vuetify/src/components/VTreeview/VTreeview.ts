@@ -4,7 +4,7 @@ import './VTreeview.sass'
 // Types
 import { VNode, VNodeChildrenArrayContents, PropType } from 'vue'
 import { PropValidator } from 'vue/types/options'
-import { TreeviewItemFunction } from 'vuetify/types'
+import { TreeviewItemFunction } from '@webcomputing/vuetify/types'
 
 // Components
 import VTreeviewNode, { VTreeviewNodeProps } from './VTreeviewNode'

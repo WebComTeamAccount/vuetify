@@ -5,7 +5,7 @@ import * as LAB from '../../util/color/transformCIELAB'
 import {
   VuetifyParsedTheme,
   VuetifyThemeItem,
-} from 'vuetify/types/services/theme'
+} from '@webcomputing/vuetify/types/services/theme'
 
 export function parse (
   theme: Record<string, VuetifyThemeItem>,

@@ -21,7 +21,7 @@ import mergeData from '../../util/mergeData'
 // Types
 import { VNode, VNodeData, PropType } from 'vue'
 import mixins from '../../util/mixins'
-import { InputValidationRule } from 'vuetify/types'
+import { InputValidationRule } from '@webcomputing/vuetify/types'
 
 const baseMixins = mixins(
   BindsAttrs,

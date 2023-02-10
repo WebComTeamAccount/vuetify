@@ -39,7 +39,7 @@
 
 <script>
   // Mixins
-  import Proxyable from 'vuetify/lib/mixins/proxyable'
+  import Proxyable from '@webcomputing/vuetify/lib/mixins/proxyable'
 
   // Utilities
   import { get } from 'vuex-pathify'

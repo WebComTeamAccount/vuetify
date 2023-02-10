@@ -6,13 +6,13 @@ declare module 'vuetify/es5/install' {
   export { install }
 }
 declare module 'vuetify/es5/components/Vuetify' {
-  import Vuetify from 'vuetify'
+  import Vuetify from '@webcomputing/vuetify'
 
   export default Vuetify
 }
 
 declare module 'vuetify/es5/components/*' {
-  import { ComponentOrPack } from 'vuetify'
+  import { ComponentOrPack } from '@webcomputing/vuetify'
   import { VueConstructor } from 'vue'
 
   const VuetifyComponent: {

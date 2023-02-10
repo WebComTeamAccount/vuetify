@@ -16,7 +16,7 @@
   import Density from '@/mixins/density'
 
   // Utilities
-  import { convertToUnit } from 'vuetify/lib/util/helpers'
+  import { convertToUnit } from '@webcomputing/vuetify/lib/util/helpers'
 
   export default {
     name: 'AppAd',

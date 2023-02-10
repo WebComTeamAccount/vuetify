@@ -14,7 +14,7 @@ import {
   ItemGroup,
   RowClassFunction,
   DataTableItemProps,
-} from 'vuetify/types'
+} from '@webcomputing/vuetify/types'
 
 // Components
 import { VData } from '../VData'

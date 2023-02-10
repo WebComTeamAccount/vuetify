@@ -1,6 +1,6 @@
 <script>
   // Extensions
-  import { VListGroup } from 'vuetify/lib'
+  import { VListGroup } from '@webcomputing/vuetify/lib'
 
   // Utilities
   import { get } from 'vuex-pathify'
